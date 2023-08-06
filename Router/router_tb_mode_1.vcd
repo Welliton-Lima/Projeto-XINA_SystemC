@@ -1,0 +1,630 @@
+$date
+     Aug 05, 2023       22:16:43
+$end
+
+$version
+ SystemC 2.3.4-Accellera --- Jul 16 2023 12:27:40
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  w_out_ack_i       $end
+$var wire    1  aaaab  w_out_val_o       $end
+$var wire    9  aaaac  w_out_data_o [8:0]  $end
+$var wire    1  aaaad  w_in_ack_o       $end
+$var wire    1  aaaae  w_in_val_i       $end
+$var wire    9  aaaaf  w_in_data_i [8:0]  $end
+$var wire    1  aaaag  s_out_ack_i       $end
+$var wire    1  aaaah  s_out_val_o       $end
+$var wire    9  aaaai  s_out_data_o [8:0]  $end
+$var wire    1  aaaaj  s_in_ack_o       $end
+$var wire    1  aaaak  s_in_val_i       $end
+$var wire    9  aaaal  s_in_data_i [8:0]  $end
+$var wire    1  aaaam  e_out_ack_i       $end
+$var wire    1  aaaan  e_out_val_o       $end
+$var wire    9  aaaao  e_out_data_o [8:0]  $end
+$var wire    1  aaaap  e_in_ack_o       $end
+$var wire    1  aaaaq  e_in_val_i       $end
+$var wire    9  aaaar  e_in_data_i [8:0]  $end
+$var wire    1  aaaas  n_out_ack_i       $end
+$var wire    1  aaaat  n_out_val_o       $end
+$var wire    9  aaaau  n_out_data_o [8:0]  $end
+$var wire    1  aaaav  n_in_ack_o       $end
+$var wire    1  aaaaw  n_in_val_i       $end
+$var wire    9  aaaax  n_in_data_i [8:0]  $end
+$var wire    1  aaaay  l_out_ack_i       $end
+$var wire    1  aaaaz  l_out_val_o       $end
+$var wire    9  aaaba  l_out_data_o [8:0]  $end
+$var wire    1  aaabb  l_in_ack_o       $end
+$var wire    1  aaabc  l_in_val_i       $end
+$var wire    9  aaabd  l_in_data_i [8:0]  $end
+$var wire    1  aaabe  rst       $end
+$var wire    1  aaabf  clk       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+0aaaab
+b0 aaaac
+0aaaad
+0aaaae
+b0 aaaaf
+0aaaag
+0aaaah
+b0 aaaai
+0aaaaj
+0aaaak
+b0 aaaal
+0aaaam
+0aaaan
+b0 aaaao
+0aaaap
+0aaaaq
+b0 aaaar
+0aaaas
+0aaaat
+b0 aaaau
+0aaaav
+0aaaaw
+b0 aaaax
+0aaaay
+0aaaaz
+b0 aaaba
+0aaabb
+0aaabc
+b0 aaabd
+1aaabe
+1aaabf
+$end
+
+#5000
+0aaabf
+
+#10000
+0aaabe
+1aaabf
+
+#15000
+0aaabf
+
+#20000
+1aaabf
+
+#25000
+0aaabf
+
+#30000
+b111111111 aaabd
+1aaabf
+
+#35000
+0aaabf
+
+#40000
+1aaabc
+1aaabf
+
+#45000
+1aaabb
+0aaabf
+
+#50000
+0aaabc
+1aaabf
+
+#55000
+0aaabb
+0aaabf
+
+#60000
+b101 aaabd
+1aaabf
+
+#65000
+0aaabf
+
+#70000
+1aaabc
+1aaabf
+
+#75000
+1aaabb
+0aaabf
+
+#80000
+0aaabc
+1aaabf
+
+#85000
+0aaabb
+0aaabf
+
+#90000
+b111111111 aaaao
+b10101 aaabd
+1aaabf
+
+#95000
+0aaabf
+
+#100000
+1aaabc
+1aaabf
+
+#105000
+1aaabb
+0aaabf
+
+#110000
+0aaabc
+1aaabf
+
+#115000
+0aaabb
+0aaabf
+
+#120000
+b1000101 aaabd
+1aaabf
+
+#125000
+0aaabf
+
+#130000
+1aaabc
+1aaabf
+
+#135000
+1aaabb
+0aaabf
+
+#140000
+0aaabc
+1aaabf
+
+#145000
+0aaabb
+0aaabf
+
+#150000
+b1000101 aaaao
+b10000 aaabd
+1aaabf
+
+#155000
+0aaabf
+
+#160000
+1aaabc
+1aaabf
+
+#165000
+1aaabb
+0aaabf
+
+#170000
+0aaabc
+1aaabf
+
+#175000
+0aaabb
+0aaabf
+
+#180000
+b10000 aaaao
+b100000001 aaabd
+1aaabf
+
+#185000
+0aaabf
+
+#190000
+1aaabc
+1aaabf
+
+#195000
+1aaabb
+0aaabf
+
+#200000
+0aaabc
+1aaabf
+
+#205000
+0aaabb
+0aaabf
+
+#210000
+b0 aaabd
+1aaabf
+
+#215000
+0aaabf
+
+#220000
+b100000001 aaaar
+1aaabf
+
+#225000
+0aaabf
+
+#230000
+1aaaaq
+1aaabf
+
+#235000
+1aaaap
+0aaabf
+
+#240000
+0aaaaq
+1aaabf
+
+#245000
+0aaaap
+0aaabf
+
+#250000
+b111 aaaar
+1aaabf
+
+#255000
+0aaabf
+
+#260000
+1aaaaq
+1aaabf
+
+#265000
+1aaaap
+0aaabf
+
+#270000
+0aaaaq
+1aaabf
+
+#275000
+0aaaap
+0aaabf
+
+#280000
+b100101 aaaar
+1aaabf
+
+#285000
+0aaabf
+
+#290000
+1aaaaq
+1aaabf
+
+#295000
+1aaaap
+0aaabf
+
+#300000
+0aaaaq
+1aaabf
+
+#305000
+0aaaap
+0aaabf
+
+#310000
+b1101 aaaar
+1aaabf
+
+#315000
+0aaabf
+
+#320000
+1aaaaq
+1aaabf
+
+#325000
+1aaaap
+0aaabf
+
+#330000
+0aaaaq
+1aaabf
+
+#335000
+0aaaap
+0aaabf
+
+#340000
+b10000 aaaar
+1aaabf
+
+#345000
+0aaabf
+
+#350000
+1aaaaq
+1aaabf
+
+#355000
+1aaaap
+0aaabf
+
+#360000
+0aaaaq
+1aaabf
+
+#365000
+0aaaap
+0aaabf
+
+#370000
+b100000000 aaaar
+1aaabf
+
+#375000
+0aaabf
+
+#380000
+1aaaaq
+1aaabf
+
+#385000
+1aaaap
+0aaabf
+
+#390000
+0aaaaq
+1aaabf
+
+#395000
+0aaaap
+0aaabf
+
+#400000
+b0 aaaar
+1aaabf
+
+#405000
+0aaabf
+
+#410000
+1aaabf
+
+#415000
+0aaabf
+
+#420000
+1aaabf
+
+#425000
+0aaabf
+
+#430000
+1aaabf
+
+#435000
+0aaabf
+
+#440000
+1aaabf
+
+#445000
+0aaabf
+
+#450000
+1aaabf
+
+#455000
+0aaabf
+
+#460000
+1aaabf
+
+#465000
+0aaabf
+
+#470000
+1aaabf
+
+#475000
+0aaabf
+
+#480000
+1aaabf
+
+#485000
+0aaabf
+
+#490000
+1aaabf
+
+#495000
+0aaabf
+
+#500000
+1aaabf
+
+#505000
+0aaabf
+
+#510000
+1aaabf
+
+#515000
+0aaabf
+
+#520000
+1aaabf
+
+#525000
+0aaabf
+
+#530000
+1aaabf
+
+#535000
+0aaabf
+
+#540000
+1aaabf
+
+#545000
+0aaabf
+
+#550000
+1aaabf
+
+#555000
+0aaabf
+
+#560000
+1aaabf
+
+#565000
+0aaabf
+
+#570000
+1aaabf
+
+#575000
+0aaabf
+
+#580000
+1aaabf
+
+#585000
+0aaabf
+
+#590000
+1aaabf
+
+#595000
+0aaabf
+
+#600000
+1aaabf
+
+#605000
+0aaabf
+
+#610000
+1aaabf
+
+#615000
+0aaabf
+
+#620000
+1aaabf
+
+#625000
+0aaabf
+
+#630000
+1aaabf
+
+#635000
+0aaabf
+
+#640000
+1aaabf
+
+#645000
+0aaabf
+
+#650000
+1aaabf
+
+#655000
+0aaabf
+
+#660000
+1aaabf
+
+#665000
+0aaabf
+
+#670000
+1aaabf
+
+#675000
+0aaabf
+
+#680000
+1aaabf
+
+#685000
+0aaabf
+
+#690000
+1aaabf
+
+#695000
+0aaabf
+
+#700000
+1aaabf
+
+#705000
+0aaabf
+
+#710000
+1aaabf
+
+#715000
+0aaabf
+
+#720000
+1aaabf
+
+#725000
+0aaabf
+
+#730000
+1aaabf
+
+#735000
+0aaabf
+
+#740000
+1aaabf
+
+#745000
+0aaabf
+
+#750000
+1aaabf
+
+#755000
+0aaabf
+
+#760000
+1aaabf
+
+#765000
+0aaabf
+
+#770000
+1aaabf
+
+#775000
+0aaabf
+
+#780000
+1aaabf
+
+#785000
+0aaabf
+
+#790000
+1aaabf
+
+#795000
+0aaabf
+

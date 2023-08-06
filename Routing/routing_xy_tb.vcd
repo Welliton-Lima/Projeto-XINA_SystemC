@@ -1,0 +1,136 @@
+$date
+     Aug 06, 2023       11:55:16
+$end
+
+$version
+ SystemC 2.3.4-Accellera --- Jul 16 2023 12:27:40
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  req_w_o       $end
+$var wire    1  aaaab  req_s_o       $end
+$var wire    1  aaaac  req_e_o       $end
+$var wire    1  aaaad  req_n_o       $end
+$var wire    1  aaaae  req_l_o       $end
+$var wire    1  aaaaf  rd_i       $end
+$var wire    1  aaaag  rok_i       $end
+$var wire    9  aaaah  data_i [8:0]  $end
+$var wire    1  aaaai  frame_i       $end
+$var wire    1  aaaaj  rst_i       $end
+$var wire    1  aaaak  clk_i       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+0aaaab
+0aaaac
+0aaaad
+0aaaae
+0aaaaf
+1aaaag
+b100100001 aaaah
+1aaaai
+1aaaaj
+1aaaak
+$end
+
+#5000
+0aaaak
+
+#10000
+1aaaaf
+0aaaaj
+1aaaak
+
+#15000
+1aaaac
+0aaaak
+
+#20000
+0aaaaf
+b10 aaaah
+0aaaai
+1aaaak
+
+#25000
+0aaaak
+
+#30000
+1aaaaf
+1aaaak
+
+#35000
+0aaaak
+
+#40000
+0aaaaf
+b101 aaaah
+1aaaak
+
+#45000
+0aaaak
+
+#50000
+1aaaaf
+1aaaak
+
+#55000
+0aaaak
+
+#60000
+0aaaaf
+b100000111 aaaah
+1aaaai
+1aaaak
+
+#65000
+0aaaak
+
+#70000
+1aaaaf
+1aaaak
+
+#75000
+0aaaac
+0aaaak
+
+#80000
+1aaaak
+
+#85000
+1aaaac
+0aaaak
+
+#90000
+1aaaak
+
+#95000
+0aaaak
+
+#100000
+1aaaak
+
+#105000
+0aaaak
+
+#110000
+1aaaak
+
+#115000
+0aaaak
+
+#120000
+1aaaak
+
+#125000
+0aaaak
+
