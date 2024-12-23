@@ -1,5 +1,11 @@
 # Rede-em-Chip XINA - eXtensible Interconnect Network Architecture para Aplicações Espaciais
 
+Autor: Laboratory of Embedded and Distributed Systems (LEDS - UNIVALI) CONTACT: Prof. Douglas Rossi de Melo (drm@univali.br)
+
+Reviews 
+  | Date - Version - Author | Description
+  | 20/01/2023 - 1.0 - Welliton da Silva de Lima | Initial Modeling in SystemC
+
 Este projeto implementa uma **Rede-em-Chip** utilizando a biblioteca **SystemC**, projetada especificamente para aplicações espaciais. A arquitetura inclui mecanismos de proteção para 
 garantir comunicação confiável e execução correta em ambientes adversos, como o espaço, onde os sistemas estão sujeitos a radiação e falhas transientes.
 
