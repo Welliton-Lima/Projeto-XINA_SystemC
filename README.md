@@ -76,7 +76,7 @@ Este modelo é voltado para:
    
 Compile o projeto
 Exemplo:
-  g++ -I/path/to/systemc/include -L/path/to/systemc/lib -lsystemc -o main.cpp
+  g++ -I/home/user/systemc/include -L/home/user/systemc/lib -lsystemc -o main.cpp
 
 📜 Exemplos de Uso
 
