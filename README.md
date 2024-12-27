@@ -22,7 +22,7 @@ espaciais e incorpora proteções como:
 - **Roteamento seguro** para mitigar falhas em nós ou canais.
 - **Desempenho otimizado** para operações em ambientes de baixa energia.
 
-O projeto foi desenvolvido com **SystemC**, uma biblioteca de simulação em nível de sistema amplamente usada na indústria de hardware.
+O projeto foi desenvolvido com **SystemC**, uma biblioteca de simulação em nível de sistema usada na indústria de hardware.
 
 ---
 
