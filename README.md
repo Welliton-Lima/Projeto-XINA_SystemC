@@ -63,7 +63,7 @@ Este modelo é voltado para:
 3. **Código-fonte**:
    - Clone ou baixe o repositório:
      ```bash
-     git clone https://github.com/Welliton-Lima/rede-em-chip-espacial.git
+     git clone https://github.com/Welliton-Lima/Projeto-XINA_SystemC.git
      ```
 
 ---
