@@ -28,7 +28,7 @@ O projeto foi desenvolvido com **SystemC**, uma biblioteca de simulação em ní
 
 ## 🛠️ Funcionalidades
 
-- **Topologia Configurável**:
+- **Topologia**:
   - Suporte a malhas 2D.
 - **Tolerância a Falhas**:
   - Redundância modular tripla.
