@@ -1,6 +1,7 @@
 # Rede-em-Chip XINA - eXtensible Interconnect Network Architecture para Aplicações Espaciais
 
-Autor: Laboratory of Embedded and Distributed Systems (LEDS - UNIVALI) CONTACT: Prof. Douglas Rossi de Melo (drm@univali.br)
+Autor: Laboratory of Embedded and Distributed Systems (LEDS - UNIVALI) 
+CONTACT: Prof. Douglas Rossi de Melo (drm@univali.br)
 
 Reviews 
   | Date - Version - Autor | Descrição
@@ -16,8 +17,8 @@ garantir comunicação confiável e execução correta em ambientes adversos, co
 
 As Redes-em-Chip são essenciais para sistemas embarcados complexos, fornecendo comunicação eficiente entre múltiplos núcleos. Este projeto é voltado para ambientes 
 espaciais e incorpora proteções como:
-
-- **Tolerância a falhas transientes**.
+<!--
+- **Tolerância a falhas transientes**.-->
 - **Correção de erros** em pacotes de comunicação.
 - **Roteamento seguro** para mitigar falhas em nós ou canais.
 - **Desempenho otimizado** para operações em ambientes de baixa energia.
@@ -30,7 +31,8 @@ O projeto foi desenvolvido com **SystemC**, uma biblioteca de simulação em ní
 
 - **Topologia**:
   - Suporte a malhas 2D.
-- **Tolerância a Falhas**:
+<!--
+- **Tolerância a Falhas**: -->
   - Redundância modular tripla.
 - **Roteamento XY**:
   - O pacote segue o caminho em X depois em Y.
